@@ -1,3 +1,20 @@
-<link rel="stylesheet" href="main.css">
-<h3>todo!</h3>
-<script src="main.js"></script>
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript"src="main.js">	</script>
+<head>
+	<title>WhatTo.Do</title>
+</head>
+<body>
+<center><img src="http://i63.tinypic.com/2j3s7b8.jpg" alt="A Simple Task Reminder">
+ <p>
+    <input type="textbox" style="width: 300px; height:20px;"  id="txt1" />
+    <input type="button" value="+ Add" class="add" onclick="add()" />
+    <input type="button" value="+ Add Important" class="imp" onclick="imp()">
+    <input type="button" value="Delete" class="delete" onclick="delete1()"/>
+</p>
+<table id="Implist" width="400px"></table>
+<table id="List" width="400px"></table></center>
+<center>Total Work pending : <a id="Total"></a></center>
+</center></body> 
+</html>

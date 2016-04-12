@@ -1,3 +1,21 @@
-body {
-    padding: 20px;
+.add {
+	background-color:#44c767;
+	border: transparent;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 6px;
+}
+.delete {
+	background-color:#e4685d;
+	border: transparent;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 6px;
+}
+.imp{
+	background-color:#ece8d5;
+	border: transparent;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 6px;
 }
